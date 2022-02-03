@@ -2,6 +2,7 @@
   "name": "toy_app",
   "private": true,
   "dependencies": {
+    "@prettier/plugin-ruby": "^2.0.0",
     "@rails/actioncable": "^6.0.0",
     "@rails/activestorage": "^6.0.0",
     "@rails/ujs": "^6.0.0",
@@ -10,6 +11,7 @@
   },
   "version": "0.1.0",
   "devDependencies": {
+    "prettier": "^2.5.1",
     "webpack-dev-server": "^4.7.4"
   }
 }

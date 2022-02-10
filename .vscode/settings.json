@@ -1,5 +1,9 @@
 {
     "[ruby]": {
         "editor.formatOnSave": true
+    },
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.includeLanguages": {
+        "erb": "html"
     }
 }

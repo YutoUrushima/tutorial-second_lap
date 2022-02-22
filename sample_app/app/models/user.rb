@@ -15,7 +15,7 @@ class User < ApplicationRecord
               case_sensitive: false,
             }
   has_secure_password
-  validates :password, presence: true, length: { minimum: 6 }
+  validates :password, presence: true, length: { minimum: 6 }, allow_nil: true
 
   # 渡されたハッシュ値を返す
   def User.digest(string)
